@@ -1,13 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./src/assets/sipnplay.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Board Game Cafe | Sip & Play</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!--I need navigation bar and main section that has sliding images to
+    show variety of games available, then after, just a link to the games-->
+
+    <nav>
+        <div class="logo">
+            <img src="./Images/sip&play logo.png">
+        </div>
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#food&drink">Menu</a></li>
+                <li><a href="#games" class="board">Board Games</a></li>
+            </ul>
+        </div>
+        <div class="socials">
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
+        </div>
+    </nav>
+
+    <!--Main section for images-->
+    <!--I want to create a sliding image that has the name
+    of the game and the background a bit blurry, so when the user hovers,
+    it shows the game-->
+    <div class="container">
+        <!-- <div class="image-wrapper"> -->
+            <div class="image-list">
+                <img src="./Images/7 wonders.jpg" alt="7 wonders">
+                <p>7 wonders</p>
+            </div>
+            <div class="image-list">
+                <img src="./Images/chess.jpg" alt="chess">
+                <p>Chess</p>
+            </div>
+            <div class="image-list">
+                <img src="./Images/citadels.png" alt="citadels">
+                <p>Citadels</p>
+            </div>
+            <div class="image-list">
+                <img src="./Images/forbidden desert.jpg" alt="forbidden desert">
+                <p>Forbidden Desert</p>
+            </div>
+            <div class="image-list">
+                <img src="./Images/hanabi.jpg" alt="hanabi">
+                <p>Hanabi</p>
+            </div>
+            <div class="image-list">
+                <img src="./Images/mastermind.jpg" alt="mastermind">
+                <p>Mastermind</p>
+            </div>
+            <div class="image-list">
+                <img src="./Images/rising sun.jpg" alt="rising sun" >
+                <p>Rising sun</p>
+            </div>
+            <div class="image-list">
+                <img src="./Images/stop thief.jpg" alt="stop thief">
+                <p>Stop thief!</p>
+            </div>  
+            <div class="image-list">
+                <img src="./Images/taboo.jpg" alt="taboo">
+                <p>Taboo</p>
+            </div>  
+            <div class="image-list">
+                <img src="./Images/uno.jpeg" alt="uno">
+                <p>Uno</p>
+            </div>
+        <!-- </div> -->
+
+    </div>
+    <div class="deck">
+        <p>ALL BOARD COLLECTIONS</p>
+    </div>
+</body>
 </html>
